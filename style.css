@@ -1,0 +1,110 @@
+table {
+    width: 80%;
+    height: 300;
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+thead {
+    background-color: aqua;
+}
+
+.pro {
+    display: inline-block;
+    background-color: grey;
+    color: black;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+.contact {
+    display: inline-block;
+    background-color: grey;
+    color: black;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 40px;
+}
+
+h1 {
+    color: #2c5e8a;
+}
+
+.container {
+    background: #fff;
+    padding: 25px;
+    border: 1px solid #ccc;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #bbb;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.form-row {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.form-group {
+    flex: 1;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.services {
+    columns: 2;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.send {
+    background: #2c6fb7;
+}
+
+.clear {
+    background: #e74c3c;
+}
