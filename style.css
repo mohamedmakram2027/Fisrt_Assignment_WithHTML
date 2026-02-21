@@ -1,3 +1,27 @@
+body {
+    background-color: blueviolet;
+}
+
+article {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+header {
+    color: rgb(94, 146, 129);
+    text-align: center;
+}
+
+.table {
+    border: none;
+}
+
+.table td {
+    border: none;
+}
+
 table {
     width: 80%;
     height: 300;
